@@ -1,13 +1,105 @@
-body {
+#root,
+body,
+html {
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: poppins;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background: url(./assets/gif.gif);
+  background-size: cover;
+  font-family: poppins;
+  overflow: auto;
+}
+
+
+#dashboard {
+  margin-top: 1.5%;
+  justify-content: space-between;
+  background: transparent;
+  height: 100vh;
+  width: 20%;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+.nav-item {
+  display: grid;
+  width: 80%;
+  border-bottom: 4px solid #10dbdb;
+  height: 20%;
+  color: #fff;
+  align-items: center;
+  text-decoration: none;
+  padding-left: 20px;
+  margin: 10px;
+  box-shadow: 3px 3px 3px #5a5a5a,
+    0px 0px 3px #10dbdb;
+
+}
+
+.nav-item:hover {
+  background-color: #fff;
+  color: #2be3ec;
+  border: 4px solid #000;
+}
+
+.icon-container {
+  margin-right: 20px;
+  justify-content: center;
+}
+
+#main {
+  display: flex;
+  background: transparent;
+}
+
+#main article {
+  margin: 10px;
+  background: transparent;
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: 2%;
+  width: 89vw;
+  height: 76vh;
+
+}
+
+#login {
+  background: url(./assets/hero1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: poppins;
+  text-align: center;
+
+}
+
+#register {
+  background: url(./assets/backg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000;
+  font-family: poppins;
+  text-align: center;
+  font-weight: 900;
+
+}
+
+.switch-wrapper {
+  position: relative;
+}
+
+.switch-wrapper>div {
+  position: absolute;
+}
+
+.grid {
+  margin-top: 9%;
+}
+.appbar{
+  margin-left: 90%;
 }
